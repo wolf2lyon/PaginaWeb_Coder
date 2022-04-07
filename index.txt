@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=League+Gothic&family=Righteous&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/e2f1aff89b.js" crossorigin="anonymous"></script>
+	<title>Practica</title>
+</head>
+<body>
+	<header class="header">
+    	<div class="ctnTotal">
+			<div class="ctnPaginas">
+	        	<nav class="main-nav">
+	         		<div class="main-nav__item-icon">
+	    				<a href="#">
+	    					<img src="img/menu.png" alt="imagen de menu">
+	    				</a>
+	    			</div>
+                	
+					<ul class="main-nav__list">
+                	   <li class="main-nav__list__item">
+	            	      <a href="index.html" class="nav-link">Inicio</a>
+	            	   </li>
+	            	   <li class="main-nav__list__item">
+	            	     <a href="nosotros.html" class="nav-link">Nosotros</a>
+	            	   </li>
+	            	   <li class="main-nav__list__item">
+	            	     <a href="accesorios.html" class="nav-link">Accesorios</a>
+	            	   </li>
+	            	   <li class="main-nav__list__item">
+	            	     <a href="ultimas_tendencias.html" class="nav-link">Tendencias</a>
+	            	   </li>
+                	   <li class="main-nav__list__item">
+	            	      <a href="contacto.html" class="nav-link">Contacto</a>
+	            	   </li>
+ 	            	</ul>
+
+                </nav>
+
+            </div>
+
+			<div class="main-nav__item-logo"> 
+            	<a href="index.html">
+            	    <img src="img/logo.pagina.3.png" alt="logo-de-la-pagina">
+            	</a>
+
+          	</div>
+ 
+          	<div class="main-nav__item-shopping-cart">
+          		<a href="#">
+          	    	<img src="img/carrito.png" alt="imagen del carrito"> 
+          		</a>
+
+          	</div>    
+         
+    	</div>
+
+    </header>
+
+	<main>
+		<div class="hero">
+			<div class="hero-container">
+				<h3 class="title1-fs-1">OFRECEMOS</h3>
+				<h3 class="title1-fs-2">ACCESORIOS PARA GAMERS</h3>
+				<h2 class="subtitle1">ALTA CALIDAD</h2>
+				<h2 class="subtitle2">BUENOS DISEÑOS</h2>
+				<h2 class="subtitle3">GARANTIA EN LOS PRODUCTOS</h2>
+			</div>
+
+		</div>
+
+	
+
+	<!--End Hero-->
+	<!--Body-->
+
+	 <div class="body">
+		<!--Seccion Vision de la empresa-->
+	    <section class="first-section">
+				<div class="row body-izq index">
+					<div class="row__img-first">
+						<img src="img/imagen-nostros.jpg" alt="imagen"  >
+			    	</div>
+
+					<div class="row__text-first">
+						<h3>Vision de la empresa</h3>
+							<p> 
+				   			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				   			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				   			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				   			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				   			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				   			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				   			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				   			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				   			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				   			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				   			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				   			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>	
+	    				<div class="row__button-izq">
+							<p>
+								<a href="nosotros.html">
+								"Leer mas"
+								</a>
+
+							</p>
+
+	     				</div>
+
+		 			</div>
+
+			</div>
+
+		</section>
+		<!--Seccion de accesorios-->
+
+		<section class="second-section">
+				<div class="row body-der index">
+						<div class="row__text-second">
+							<h3>Accesorios gamers</h3>
+								<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								<p>
+
+			 				<div class="row__button-der">
+								<p>
+									<a href="accesorios.html">
+										"Ver mas"
+									</a>
+
+								</p>
+
+							</div>
+
+						</div>
+
+						<div class="row__img-second">
+							<img src="img/imagen-accesorios.jpg">
+						</div>
+
+				</div>
+	
+	 	</section>
+
+	<!--Seccion de ultimas tendencias-->
+
+	 	<section class="third-section">
+				<div class="row body-izq index">
+					<div class="row__img-third">
+						<img src="img/imagen-tendencias.jpg" alt="imagen">
+			    	</div>
+
+					<div class="row__text-third">
+						<h3>Ultimas tendencias</h3>
+							<p> 
+				   			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+
+	    				<div class="row__button-izq">
+							<p>
+								<a href="ultimas_tendencias.html">
+								"Leer mas"
+								</a>
+
+							</p>
+
+	     				</div>
+
+		 			</div>
+
+	 			</div>
+	  
+		</section>
+
+	 </div>
+	</main>
+<footer class="pie-pagina">
+		<div class="container-footer">
+			<div class="box-1">
+				<img src="img/img-correo-footer.png">
+				<a href="contacto.html">CONTACTANOS</a>
+			</div>
+
+			<div class="box-2">
+				<div class="container-redes">
+				<ul>
+					<h4>Redes sociales</h4>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Whatssap</a></li>
+					<li><a href="#">Instagram</a></li>
+				</ul>
+				</div>
+				<div class="imagenes-redes">
+				<img src="img/facebook1.png" alt="img-facebook" class="img-facebook">
+				<img src="img/whatssap1.png" alt="img-whatssap"class="img-whatssap">
+				<img src="img/instagram1.png" alt="img-instagram" class="img-instagram">
+				</div>
+			</div>
+
+			<div class="box-3">
+				<h4>Tienda Gamer</h4>
+				<ul>
+					<li><a href="#">Nosotros</a></li>
+					<li><a href="#">Accesorios</a></li>
+					<li><a href="#">Tendencias</a></li>
+				</ul>
+			</div>
+
+
+		</div>
+		<div class="box">
+				<figure>
+					<a href="#" class="logo-footer">
+						<img src="img/logo.pagina.3.png" alt="logo">
+					</a>
+				</figure>
+				
+		</div>
+		<div class="footer-copyright">
+			<p>copyright &copy;2022 ACCS GAMERS-Website designed by josé </p>
+		</div>
+
+	
+</footer>
+</body>
+</html>
