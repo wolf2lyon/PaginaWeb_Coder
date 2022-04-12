@@ -20,17 +20,23 @@
 		  <div class="collapse navbar-collapse" id="navbarNavDropdown">
 			<ul class="navbar-nav">
 			  <li class="nav-item">
-				<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+				<a class="nav-link active" aria-current="page" href="#">Home</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="accesorios.html">Accesorios</a>
+				<a class="nav-link" href="#">Features</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" href="nosotros.html">Nosotros</a>
+				<a class="nav-link" href="#">Pricing</a>
 			  </li>
-			  <li class="nav-item ">
-				 <a class="nav-link" href="ultimas_tendencias.html"> Ultimas tendencias
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				  Dropdown link
 				</a>
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				  <li><a class="dropdown-item" href="#">Action</a></li>
+				  <li><a class="dropdown-item" href="#">Another action</a></li>
+				  <li><a class="dropdown-item" href="#">Something else here</a></li>
+				</ul>
 			  </li>
 			</ul>
 		  </div>
@@ -38,7 +44,15 @@
 	  </nav>
 
 <main class="container-fluid vh-90  p-0 m-0">
-	
+	<div class="hero  vh-100 ">
+	<div class="hero-container">
+		<span class="span-title1-fs-1"><h3 class="title1-fs-1">OFRECEMOS</h3></span>
+		<span class="span-title1-fs-2"><h3 class="title1-fs-2">ACCESORIOS PARA GAMERS</h3></span>
+		<span class="span-subtitle1"><h2 class="subtitle1">ALTA CALIDAD</h2></span>
+		<span class="span-subtitle2"><h2 class="subtitle2">BUENOS DISEÑOS</h2></span>
+		<span class="span-subtitle3"><h2 class="subtitle3">GARANTIA EN LOS PRODUCTOS</h2></span>
+	</div>
+	</div>
 
 	<div class=" container mt-5  vw-100 ">
 		<div class="row  d-flex align-items-center justify-content-center ">
@@ -54,7 +68,7 @@
 						Harum expedita necessitatibus, architecto consectetur libero cumque molestiae?
 						Nihil rerum tempora ipsa dolores doloremque sunt vel.
 						Distinctio minima totam, aspernatur possimus reprehenderit commodi eveniet.</p>
-						<p class="boton w-100"> 
+						<p class="link w-100"> 
 							<a href="nosotros.html">
 							"Leer mas"
 							</a>
@@ -62,8 +76,54 @@
 					</div>
 				</div>
 		   </div>
+
+		<div class="col-12 col-lg-12  vh-100 vw-100">
+			<div class="row h-100">
+				<div class="imagen-body col-12 col-lg-7 d-flex align-items-center justify-content-center ">
+					<img src="img/imagen-accesorios.jpg " alt="imagen">
+				</div>
+				<div class="col-12 col-lg-5 d-flex flex-column align-items-center justify-content-center">
+					<h3 class="w-100">Accesorios Gamers</h3>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+					Nulla hic nobis facere eum? Minima, nam modi?
+					Harum expedita necessitatibus, architecto consectetur libero cumque molestiae?
+					Nihil rerum tempora ipsa dolores doloremque sunt vel.
+					Distinctio minima totam, aspernatur possimus reprehenderit commodi eveniet.</p>
+					<p class="link w-100"> 
+						<a href="accesorios.html">
+						"Leer mas"
+						</a>
+					</p>
+				</div>
+			</div>
+	    </div>
+		<div class="col-12 col-lg-12  vh-100 vw-100">
+			<div class="row h-100">
+				<div class="imagen-body col-12 col-lg-7  d-flex align-items-center justify-content-center ">
+					<img src="img/imagen-tendencias.jpg" alt="imagen">
+				</div>
+				<div class="col-12 col-lg-5 d-flex flex-column align-items-center justify-content-center">
+					<h3 class="w-100">Ultimas tendencias</h3>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+					Nulla hic nobis facere eum? Minima, nam modi?
+					Harum expedita necessitatibus, architecto consectetur libero cumque molestiae?
+					Nihil rerum tempora ipsa dolores doloremque sunt vel.
+					Distinctio minima totam, aspernatur possimus reprehenderit commodi eveniet.</p>
+					<p class="link w-100"> 
+						<a href="ultimas_tendencias.html">
+						"Leer mas"
+						</a>
+					</p>
+				</div>
+			</div>
+	    </div>
+
+
+
 		</div>
+
 	</div>
+
 </main>
 <!-- Footer -->
 <footer>
