@@ -24,7 +24,7 @@ img{
 }
 /* Hero */
 .hero{
-	background:  url(.../img/hero.2.jpg) center/cover;
+	background:  url(../img/hero.2.jpg) center/cover;
 	height: 89vh;
 	position: relative;
 	display: flex;
