@@ -587,7 +587,7 @@ main{
 	}
 	.boton a{
 		padding: 7px;
-		font-size: 12px;
+		font-size: 20px;
 	}
 	.precio-boton{
 		padding: 0;
@@ -608,7 +608,7 @@ main{
 	}
 	.boton a{
 		padding: 7px;
-		font-size: 10px;
+		font-size: 20px;
 	}
 	.precio-boton{
 		padding: 0;
