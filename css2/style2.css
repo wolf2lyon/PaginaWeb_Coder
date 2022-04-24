@@ -1,0 +1,638 @@
+body {
+  background-color: #1a1a1a;
+  background: linear-gradient(89.17deg, #1a1a1a 12.64%, #454545 173.99%);
+  color: #f1f1f1;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Righteous", cursive;
+}
+
+img {
+  height: 60%;
+  width: 70%;
+}
+
+/*Hero*/
+/*hero
+  hero-container
+  span-> clase title o subtitle
+*/
+.hero {
+  background: url(../img/hero.2.jpg) center/cover;
+  height: 89vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero .hero-container {
+  display: block;
+  margin: auto;
+  white-space: nowrap;
+  border-right: 4px;
+  width: 16ch;
+  animation: typing 2s steps(16), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+  padding: 0.3em;
+  position: absolute;
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+}
+.hero .hero-container .span-title1-fs-1 {
+  display: block;
+  margin: auto;
+  white-space: nowrap;
+  border-right: 4px;
+  width: 16ch;
+  animation: typing 2s steps(16), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+.hero .hero-container .span-title1-fs-1 .title-fs-1 {
+  font-size: 1.5em;
+}
+.hero .hero-container .span-title1-fs-2 {
+  display: block;
+  margin: auto;
+  white-space: nowrap;
+  border-right: 4px;
+  width: 30ch;
+  animation: typing 2s steps(30), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+  animation-delay: 2s;
+}
+.hero .hero-container .span-title1-fs-2 h3 {
+  animation: animacionborrar 2s;
+}
+.hero .hero-container .span-title1-fs-2 .title1-fs-2 {
+  font-size: 1.2em;
+}
+.hero .hero-container .span-subtitle1 {
+  display: block;
+  margin: auto;
+  white-space: nowrap;
+  border-right: 4px;
+  width: 21ch;
+  animation: typing 2s steps(21), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+  animation-delay: 3s;
+}
+.hero .hero-container .span-subtitle1 .subtitle1 {
+  font-size: 1.2rem;
+}
+.hero .hero-container .span-subtitle1 h2 {
+  animation: animacionborrar 3s;
+}
+.hero .hero-container .span-subtitle2 {
+  display: block;
+  margin: auto;
+  white-space: nowrap;
+  border-right: 4px;
+  width: 27ch;
+  animation: typing 2s steps(27), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+  animation-delay: 4s;
+}
+.hero .hero-container .span-subtitle2 .subtitle2 {
+  font-size: 1.2rem;
+}
+.hero .hero-container .span-subtitle2 h2 {
+  animation: animacionborrar 4s;
+}
+.hero .hero-container .span-subtitle3 {
+  display: block;
+  margin: auto;
+  white-space: nowrap;
+  border-right: 4px;
+  width: 33ch;
+  animation: typing 2s steps(33), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+  animation-delay: 5s;
+}
+.hero .hero-container .span-subtitle3 .subtitle3 {
+  font-size: 1.2rem;
+}
+.hero .hero-container .span-subtitle3 h2 {
+  animation: animacionborrar 5s;
+}
+.hero::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: #788389;
+  opacity: 0.8;
+}
+
+/*Accesorios*/
+/*Card box
+  imagen->img
+  card-divider
+  contenido-compra->h3,descripcion
+  precio-boton->subt,precio-box->precio->cambio
+  precio-boton->boton->btn-neon->span1,span2,span3,span4
+*/
+.card-box {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  box-shadow: 18.2518px 24.1017px 58.4993px 4.67994px rgba(0, 0, 0, 0.4);
+  border: 1px solid #454545;
+  background: linear-gradient(89.17deg, #1a1a1a 12.64%, #454545 173.99%);
+}
+.card-box .card-divider {
+  height: 0.7px;
+  width: 80%;
+  background: linear-gradient(45deg, transparent, #f1f1f1, transparent);
+  margin: 10px auto 8px;
+}
+.card-box .imagen img {
+  width: 100%;
+  height: 80%;
+}
+.card-box .precio-boton {
+  display: flex;
+  height: 30%;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 31px;
+  padding-right: 31px;
+}
+.card-box .precio-boton .subt {
+  margin-bottom: 0;
+  font-family: "Overpass", sans-serif;
+  color: #f1f1f1;
+  font-size: 12px;
+  font-weight: 200;
+}
+.card-box .precio-boton .precio-box {
+  display: flex;
+  justify-content: space-between;
+}
+.card-box .precio-boton .precio-box .precio {
+  font-family: "Overpass", sans-serif;
+  font-weight: 300px;
+  font-size: 30px;
+  color: #f1f1f1;
+}
+.card-box .precio-boton .precio-box .cambio {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  color: #f1f1f1;
+  font-size: 12.5px;
+  font-family: "Overpass", sans-serif;
+}
+.card-box .precio-boton .boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7px;
+}
+.card-box .precio-boton .boton .btn-neon {
+  border: 2px solid green;
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #f1f1f1;
+  letter-spacing: 1px;
+  font-size: 13px;
+  font-family: "Overpass", sans-serif;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.card-box .precio-boton .boton .btn-neon:hover {
+  background: #1c7;
+  box-shadow: 0 0 10px #1c7, 0 0 40px #1c7, 0 0 80px #1c7;
+  transition-delay: 1s;
+}
+.card-box .precio-boton .boton .btn-neon span {
+  position: absolute;
+  display: block;
+}
+.card-box .precio-boton .boton .btn-neon #span1 {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #1c7);
+}
+.card-box .precio-boton .boton .btn-neon:hover #span1 {
+  left: 100%;
+  transition: 1s;
+}
+.card-box .precio-boton .boton .btn-neon #span3 {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #1c7);
+}
+.card-box .precio-boton .boton .btn-neon:hover #span3 {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+.card-box .precio-boton .boton .btn-neon #span2 {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #1c7);
+}
+.card-box .precio-boton .boton .btn-neon:hover #span2 {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+.card-box .precio-boton .boton .btn-neon #span4 {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #1c7);
+}
+.card-box .precio-boton .boton .btn-neon:hover #span4 {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+
+/*Formulario*/
+/*formulario->contenedor-formulario->Padre
+  cardiver->hijo(imagen-form->img)
+  form cardiver->fomr_section->tex,email,form_input,submit
+*/
+.formulario {
+  width: 60%;
+}
+.formulario .contenedor-formulario {
+  background: #444;
+  min-width: 290px;
+  max-width: 500px;
+}
+.formulario .contenedor-formulario .form {
+  text-align: center;
+  min-width: 300px;
+  flex: 1;
+  order: 5;
+  padding: 30px;
+}
+.formulario .contenedor-formulario .form .form_input {
+  width: 100%;
+  padding: 7px;
+  margin: 6px 0;
+  border: none;
+  border-bottom: 3px solid #1c7;
+  background: transparent;
+  color: #fff;
+}
+.formulario .contenedor-formulario .form .form_input:focus {
+  background: linear-gradient(to bottom, transparent, #222);
+  outline: none;
+  border-bottom: 3px solid #5f9;
+}
+.formulario .contenedor-formulario .form .form_input[type=submit] {
+  background-color: #094;
+  border-bottom: none;
+  padding: 12px;
+}
+.formulario .contenedor-formulario .form .form_input[type=submit]:hover {
+  background-color: #072;
+  border-bottom: none;
+  padding: 12px;
+}
+.formulario .contenedor-formulario .form .form_input[type=submit]:focus {
+  background-color: #094;
+}
+.formulario .contenedor-formulario .form .form_input[type=submit]:active {
+  background: linear-gradient(to bottom, #072, #050);
+}
+.formulario .contenedor-formulario .form .form_section textarea {
+  min-height: 140px;
+  resize: none;
+}
+
+/*CSS del footer*/
+/*Referencias-paginas->padre 
+  h5,ul->hijos
+  ----------
+  ul->padre
+  li->hijos->a
+  ---------
+  imagen-correo->padre
+  img->hijo
+  contactanos->padre
+  a->hijo
+  imagen-logo->padre
+  img->hijo
+  redes-sociales->padre
+  box-redes->hijo
+  ---------------
+  box-redes->padre
+  imagenes-redesociales->hijo
+  ---------------
+  imagenes-redesociales->padre
+  img-facebook->hijo
+  img-whatssap->hijo
+  img-instagram->hijo
+
+*/
+.imagen-correo img {
+  width: 100px;
+  height: 100px;
+}
+
+.imagen-logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.imagenes-redesociales .img-facebook {
+  width: 24px;
+  height: 24px;
+  padding-top: 3px;
+}
+.imagenes-redesociales .img-whatssap {
+  width: 20px;
+  height: 20px;
+}
+.imagenes-redesociales .img-instagram {
+  width: 19px;
+  height: 19px;
+}
+
+.footer-copyright {
+  display: inline;
+  text-align: center;
+}
+
+footer {
+  border-top: 2px solid #fff;
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  border-top: 2px solid #fff;
+}
+
+/*Media queries de footer*/
+@media screen and (min-width: 760px) {
+  .imagen-body img {
+    transition: all 2s ease-in-out;
+  }
+
+  .imagen-body img:hover {
+    transform: scale(1.2);
+  }
+}
+@media (max-width: 380px) and (min-width: 0px) {
+  .imagen-correo img {
+    width: 70px;
+    height: 70px;
+  }
+}
+/*Media queries del formulario*/
+/*formulario->contenedor-formulario->Padre
+  cardiver->hijo(imagen-form->img)
+  form cardiver->fomr_section->tex,email,form_input,submit
+*/
+@media (max-width: 380px) and (min-width: 0px) {
+  .form {
+    min-width: 200px;
+  }
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  .imagen-form img {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .imagen-form img {
+    width: 55%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .imagen-form img {
+    width: 45%;
+  }
+}
+/*--------------------------------------*/
+/*Media queries* de accesorios*/
+/*Card box
+  imagen->img
+  card-divider
+  contenido-compra->h3,descripcion
+  precio-boton->subt,precio-box->precio->cambio
+  precio-boton->boton->btn-neon->span1,span2,span3,span4
+*/
+@media (max-width: 320px) and (min-width: 10px) {
+  .card-box {
+    padding: 50px;
+  }
+  .card-box .precio-boton {
+    padding: 0;
+  }
+  .card-box .precio-boton .precio-box .precio {
+    font-size: 19px;
+  }
+  .card-box .precio-boton .precio-box .precio .cambio {
+    font-size: 12px;
+  }
+  .card-box .precio-boton .boton a {
+    padding: 7px !important;
+    font-size: 10px !important;
+  }
+}
+@media (max-width: 440px) and (min-width: 320px) {
+  .card-box {
+    padding: 60px;
+  }
+  .card-box .precio-boton {
+    padding: 0;
+  }
+  .card-box .precio-boton .precio-box .precio {
+    font-size: 19px;
+  }
+  .card-box .precio-boton .precio-box .precio .cambio {
+    font-size: 12px;
+  }
+  .card-box .precio-boton .boton a {
+    padding: 7px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 576px) and (min-width: 440px) {
+  .card-box {
+    padding: 60px;
+  }
+  .card-box .precio-boton {
+    padding: 0;
+  }
+  .card-box .precio-boton .precio-box .precio {
+    font-size: 19px;
+  }
+  .card-box .precio-boton .precio-box .precio .cambio {
+    font-size: 12px;
+  }
+  .card-box .precio-boton .boton a {
+    padding: 8px;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .card-box {
+    width: 300px;
+    padding: 0px !important;
+  }
+  .card-box .precio-boton .precio-box .precio {
+    font-size: 23px;
+  }
+  .card-box .precio-boton .precio-box .precio .cambio {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .card-box .precio-boton .precio-box {
+    justify-content: center;
+  }
+  .card-box .precio-boton .precio-box .precio {
+    font-size: 23px;
+  }
+  .card-box .precio-boton .precio-box .precio .cambio {
+    font-size: 12px;
+    margin-left: 0.5rem;
+  }
+  .card-box .precio-boton .boton a {
+    padding: 10px !important;
+    font-size: 14px !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .card-box {
+    width: 350px !important;
+    padding: 0px !important;
+  }
+  .card-box .precio-boton .precio-box {
+    justify-content: space-around;
+  }
+  .card-box .precio-boton .precio-box .precio .cambio {
+    margin-left: 0.5rem;
+  }
+}
+/*Animaciones del hero*/
+/*hero
+  hero-container
+  span-> clase title o subtitle
+*/
+@keyframes animacionborrar {
+  0% {
+    color: transparent;
+  }
+  100% {
+    color: transparent;
+  }
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+/*Media queries del hero*/
+/*hero
+  hero-container
+  span-> clase title o subtitle
+*/
+@media screen and (min-width: 670px) {
+  .hero .hero-container .span-title1-fs-1 {
+    display: block;
+    margin: auto;
+    white-space: nowrap;
+    border-right: 4px;
+    width: 17ch;
+    animation: typing 2s steps(17), blink 0.5s infinite step-end alternate;
+    overflow: hidden;
+  }
+  .hero .hero-container .span-title1-fs-2 {
+    display: block;
+    margin: auto;
+    white-space: nowrap;
+    border-right: 4px;
+    width: 41ch;
+    animation: typing 2s steps(41), blink 0.5s infinite step-end alternate;
+    overflow: hidden;
+    animation-delay: 2.5s;
+  }
+  .hero .hero-container .span-title1-fs-2 .title1-fs-2 {
+    font-size: 1.7em;
+  }
+  .hero .hero-container .span-title1-fs-2 h3 {
+    animation: animacionborrar 2.5s;
+  }
+  .hero .hero-container .span-subtitle1 {
+    display: block;
+    margin: auto;
+    white-space: nowrap;
+    border-right: 4px;
+    width: 21ch;
+    animation: typing 2s steps(21), blink 0.5s infinite step-end alternate;
+    overflow: hidden;
+    animation-delay: 4s;
+  }
+  .hero .hero-container .span-subtitle1 .subtitle1 {
+    font-size: 1.7rem;
+  }
+  .hero .hero-container .span-subtitle1 h2 {
+    animation: animacionborrar 4s;
+  }
+  .hero .hero-container .span-subtitle2 {
+    display: block;
+    margin: auto;
+    white-space: nowrap;
+    border-right: 4px;
+    width: 27ch;
+    animation: typing 2s steps(27), blink 0.5s infinite step-end alternate;
+    overflow: hidden;
+    animation-delay: 5.5s;
+  }
+  .hero .hero-container .span-subtitle2 .subtitle2 {
+    font-size: 1.7rem;
+  }
+  .hero .hero-container .span-subtitle2 h2 {
+    animation: animacionborrar 5.5s;
+  }
+  .hero .hero-container .span-subtitle3 {
+    display: block;
+    margin: auto;
+    white-space: nowrap;
+    border-right: 4px;
+    width: 46ch;
+    animation: typing 2s steps(46), blink 0.5s infinite step-end alternate;
+    overflow: hidden;
+    animation-delay: 7s;
+  }
+  .hero .hero-container .span-subtitle3 .subtitle3 {
+    font-size: 1.7rem;
+  }
+  .hero .hero-container .span-subtitle3 h2 {
+    animation: animacionborrar 7s;
+  }
+}
+
+/*# sourceMappingURL=style2.css.map */
